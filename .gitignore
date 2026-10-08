@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Mac OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Raw datasets (large archives and extracted folders)
+FaceDB.zip
+VoiceDB.zip
+data/
+
+# Pretrained model checkpoints
+pretrained_models/
+
+# Large raw embedding npz binaries (optional - un-comment if too large for git)
+# embeddings/*.npz
