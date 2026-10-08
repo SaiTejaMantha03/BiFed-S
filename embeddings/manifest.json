@@ -9,7 +9,8 @@
       "embedding_dim": 512,
       "persons": 300,
       "total_embeddings": 2999,
-      "valid": true
+      "valid": true,
+      "csv_file": "face_embeddings.csv"
     },
     "voice": {
       "file": "voice_embeddings.npz",
@@ -18,7 +19,8 @@
       "embedding_dim": 192,
       "persons": 200,
       "total_embeddings": 30954,
-      "valid": true
+      "valid": true,
+      "csv_file": "voice_embeddings.csv"
     }
   },
   "cross_modality": {
