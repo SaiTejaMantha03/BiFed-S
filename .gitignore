@@ -26,3 +26,14 @@ pretrained_models/
 
 # Large raw embedding npz binaries
 embeddings/*.npz
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar
+
+# Oversized embedding CSV splits (>95MB, exceeding GitHub limits)
+embeddings/splits/smote_face_train.csv
+embeddings/splits/train_data_face.csv
+embeddings/splits/raw/train_data_face/face_train.csv
+embeddings/splits/raw/train_data_face/train_English_faces.csv
